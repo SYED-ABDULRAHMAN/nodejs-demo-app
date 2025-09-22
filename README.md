@@ -59,7 +59,10 @@ Test Docker Image Locally
 bash
 Copy code
 docker build -t nodejs-demo-app .
-docker run -p 3000:3000 nodejs-demo-app
+docker run -p 3000:3000 nodejs-demo-app"
+Open your browser at http://localhost:3000
+Hello World from CI/CD pipeline!
+
 GitHub Actions Workflow
 Workflow file: .github/workflows/main.yml
 
